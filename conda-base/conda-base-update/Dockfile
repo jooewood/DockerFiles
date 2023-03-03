@@ -1,0 +1,3 @@
+FROM auroraywood/aidd:ubuntu20.04-conda-base
+
+RUN /bin/bash -c "conda update -n base -c defaults conda -y"
